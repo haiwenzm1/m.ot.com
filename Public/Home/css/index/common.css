@@ -1,0 +1,363 @@
+body {
+    background: rgb(246, 246, 246);
+}
+
+p {
+    font-size: 0.9vw;
+    line-height: 2;
+}
+
+#header {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+
+#footer {
+    background-color: #fff;
+}
+
+.wrap6 {
+    width: 60%;
+    margin: 40px auto;
+    position: relative;
+}
+
+.wrap8 {
+    width: 80%;
+    margin: 40px auto;
+    position: relative;
+}
+
+.width100 {
+    width: 100%;
+    height: auto;
+}
+
+.full100 {
+    height: 100%;
+    width: 100%;
+}
+
+.banner {
+    display: table;
+    position: relative;
+    width: 100%;
+}
+
+.big-red {
+    color: rgb(240, 83, 35);
+    font-size: 1.5vw;
+    padding: 0 5px;
+}
+
+.big-green {
+    color: rgb(175, 183, 1);
+    font-size: 1.5vw;
+    padding: 0 5px;
+}
+
+.large-green {
+    color: rgb(175, 183, 1) !important;
+    font-size: 3vw !important;
+    padding: 0 5px;
+    text-align: center!important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.title {
+    background: url(../../images/who-we-are/3.png) no-repeat;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    text-align: center;
+    padding: 50px 0;
+    background-position: 50% 100%;
+}
+
+.content p {
+    padding: 2vh 0px;
+    font-size: 2vmin;
+}
+
+.left-img-right-content {
+    height: 300px;
+    -webkit-box-shadow: 0 0 10px rgba(234, 234, 234, .5);
+    -moz-box-shadow: 0 0 10px rgba(234, 234, 234, .5);
+    box-shadow: 0 0 10px rgba(234, 234, 234, .5);
+    background-color: #fff;
+    display: table;
+}
+
+.left-img-right-content img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.left-img-right-content .right-content {
+    width: 60%;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    padding: 0 5% 0 10%;
+}
+
+.left-img-right-content h2 {
+    width: 100%;
+    color: rgb(234, 89, 20);
+    font-size: 2vw;
+    text-align: left;
+}
+
+.left-img-right-content p {
+    width: 100%;
+    text-align: left;
+    padding: 5px 0;
+    color: rgb(127, 127, 127);
+}
+
+.left-img-right-content-5 {
+    height: auto;
+    -webkit-box-shadow: 0 0 10px rgba(234, 234, 234, .5);
+    -moz-box-shadow: 0 0 10px rgba(234, 234, 234, .5);
+    box-shadow: 0 0 10px rgba(234, 234, 234, .5);
+    background-color: #fff;
+    display: table;
+}
+
+.left-img-right-content-5 img {
+    width: 100%;
+    width: 100%;
+    float: left;
+}
+
+.left-img-right-content-5 .right-content {
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    padding: 0 5%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0 5% 0 10%;
+}
+
+.left-img-right-content-5 h2 {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+    text-align: left;
+}
+
+.left-img-right-content-5 p {
+    width: 100%;
+    text-align: left;
+}
+
+.right-img-left-content {
+    width: 80%;
+    margin: 40px auto;
+    height: 300px;
+    -webkit-box-shadow: 0 0 10px rgba(234, 234, 234, .5);
+    -moz-box-shadow: 0 0 10px rgba(234, 234, 234, .5);
+    box-shadow: 0 0 10px rgba(234, 234, 234, .5);
+    background-color: #fff;
+    display: table;
+}
+
+.right-img-left-content img {
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+
+.right-img-left-content .left-content {
+    width: 60%;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    padding: 0 10% 0 5%;
+}
+
+.right-img-left-content h2 {
+    width: 100%;
+    font-family: fzltxh;
+    color: rgb(234, 89, 20);
+    font-size: 2vw;
+    text-align: left;
+}
+
+.right-img-left-content p {
+    width: 100%;
+    text-align: left;
+    color: rgb(127, 127, 127);
+}
+
+.right-img-left-content-5 {
+    height: auto;
+    -webkit-box-shadow: 0 0 10px rgba(234, 234, 234, .5);
+    -moz-box-shadow: 0 0 10px rgba(234, 234, 234, .5);
+    box-shadow: 0 0 10px rgba(234, 234, 234, .5);
+    background-color: #fff;
+    display: table;
+}
+
+.right-img-left-content-5 img {
+    width: 100%;
+    float: right;
+}
+
+.right-img-left-content-5 .left-content {
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    padding: 0 10% 0 5%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.right-img-left-content-5 h2 {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+    text-align: left;
+}
+
+.right-img-left-content-5 p {
+    width: 100%;
+    text-align: left;
+}
+
+.bg-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bg-description p {
+    text-align: center;
+    color: #fff;
+    padding: 1vh 0 0 0;
+}
+
+.gallery5 {
+    width: 48%;
+    padding: 10px;
+    background: #fff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.gallery5-wrap .gallery5:nth-child(even) {
+    float: right;
+}
+
+.gallery5-wrap .gallery5:nth-child(odd) {
+    float: left;
+}
+
+.gallery5 a {
+    width: 100%;
+    float: left;
+}
+
+.gallery5 a img {
+    width: 100%;
+}
+
+.gallery5 h3 {
+    width: 100%;
+    color: rgb(234, 89, 20);
+    font-size: 2vw;
+    text-align: left;
+    float: left;
+    text-transform: Uppercase;
+}
+
+.gallery5 p {
+    width: 100%;
+    text-align: left;
+    padding: 3px 0;
+    color: rgb(127, 127, 127);
+    float: left;
+}
+
+.bg-description-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 50%;
+    overflow: hidden;
+}
+
+.bg-description-left h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bg-description-left p {
+    text-align: center;
+    color: #fff;
+    padding: 5px 0;
+}
+
+.gallery3 {
+    width: 31%;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    float: left;
+    margin: 0 1%;
+}
+
+.gallery3 a {
+    width: 100%;
+    float: left;
+}
+
+.gallery3 a img {
+    width: 100%;
+}
+
+.gallery3 h3 {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 2vw;
+    text-align: left;
+    float: left;
+    text-transform: Uppercase;
+    margin: 10px 0;
+}
+
+.gallery3 p {
+    width: 100%;
+    text-align: left;
+    padding: 5px 0;
+    color: rgb(127, 127, 127);
+    float: left;
+}
+
+.block4 .gallery5 p {
+    height: auto;
+}
+
+.statistics {
+    background: url(../../images/where-we-are/12.png) no-repeat;
+    background-position: 50% 0;
+    height: 55px;
+    margin: 50px 0 10px;
+}

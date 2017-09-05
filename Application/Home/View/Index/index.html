@@ -1,0 +1,68 @@
+<extend name="Public/layout" />
+
+<block name="style">
+    <!-- <link type="text/css" href="__CSS__/index/jquery.fullPage.css" rel="stylesheet" /> -->
+    <!-- <link type="text/css" href="__CSS__/index/animate.min.css" rel="stylesheet" /> -->
+    <!-- <link type="text/css" href="__CSS__/index/index.css" rel="stylesheet" /> -->
+</block>
+
+<block name="body">
+    <div class="banner" style="
+    width: 100vw;
+    background-color: red;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+"></div>
+
+<div class="banner" style="
+display:none;
+    width: 100vw;
+    background-color: green;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+"></div>
+
+<div class="banner" style="display:none;
+    width: 100vw;
+    background-color: black;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+"></div>
+
+<div class="banner" style="display:none;
+    width: 100vw;
+    background-color: blue;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+"></div>
+</block>
+
+<block name="script">
+<script>
+$(".banner").on({
+	"swipeleft":function(){
+		if($(this).next(".banner").length != 0){
+			$(this).next(".banner").show();
+			$(this).next(".banner").siblings().hide();
+		}
+	},
+	"swiperight":function(){
+		if($(this).prev(".banner").length != 0){
+			$(this).prev(".banner").show();
+			$(this).prev(".banner").siblings().hide();
+		}
+	}
+});
+
+
+
+</script>
+</block>

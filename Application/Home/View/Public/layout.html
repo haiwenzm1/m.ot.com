@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{$pageTitle}</title>
+	<link type="text/css" href="__STATIC__/jquery.mobile-1.4.5.min.css" rel="stylesheet">
+    <link type="text/css" href="__CSS__/base.css" rel="stylesheet">
+    <block name="style"></block>
+
+    <script type="text/javascript" src="__STATIC__/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="__STATIC__/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+	<div id="header">
+        <a class="logo" href="/"> </a>
+    </div>
+
+    <div id="main">
+        <div class="cf"></div>
+        <block name="body"></block>
+        <div class="cf"></div>
+    </div>
+	
+    <block name="script"></block>
+</body>
+</html>
