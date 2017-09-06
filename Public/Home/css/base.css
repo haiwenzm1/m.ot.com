@@ -27,7 +27,8 @@
     src: url('fzltxh.TTF');
 }
 
-html, body {
+html,
+body {
     font: 1vw/1.5 fzlth, fzltxh, fzltch, "microsoft yahei", Helvetica, Arial, sans-serif;
     color: #131313;
 }
@@ -36,7 +37,37 @@ body {
     background-color: #f1f1f1;
 }
 
-body, p, pre, blockquote, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, form, fieldset, legend, select, input, textarea, button, table, caption, tr, th, td, div, i, a {
+body,
+p,
+pre,
+blockquote,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+form,
+fieldset,
+legend,
+select,
+input,
+textarea,
+button,
+table,
+caption,
+tr,
+th,
+td,
+div,
+i,
+a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -44,19 +75,50 @@ body, p, pre, blockquote, h1, h2, h3, h4, h5, h6, dl, dt, dd, ul, ol, li, form, 
     -webkit-box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: fzltch !important;
 }
 
-p, pre, blockquote, dl, dt, dd, ul, ol, li, form, fieldset, legend, select, input, textarea, button, table, caption, tr, th, td, a, span, label, i {
+p,
+pre,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+form,
+fieldset,
+legend,
+select,
+input,
+textarea,
+button,
+table,
+caption,
+tr,
+th,
+td,
+a,
+span,
+label,
+i {
     font-family: fzltxh !important;
 }
 
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 
-fieldset, img {
+fieldset,
+img {
     border: 0 none;
 }
 
@@ -69,7 +131,11 @@ a {
     text-decoration: none;
 }
 
-input, button, textarea, select, option {
+input,
+button,
+textarea,
+select,
+option {
     font-family: inherit;
     font-size: 100%;
     outline: 0;
@@ -87,7 +153,8 @@ textarea {
     *zoom: 1;
 }
 
-.cf:before, .cf:after {
+.cf:before,
+.cf:after {
     display: table;
     content: "";
 }
@@ -111,7 +178,7 @@ textarea {
     z-index: 99999;
 }
 
-.logo {
+#header-wrap .logo {
     width: 40vw;
     height: 6vh;
     background: url(../images/header/logo.png) 0 50% no-repeat;
@@ -121,7 +188,7 @@ textarea {
     float: left;
 }
 
-.menu-nav {
+#header-wrap .menu-nav {
     width: 40vw;
     height: 6vh;
     overflow: hidden;
@@ -130,28 +197,28 @@ textarea {
     padding: 1.6vh 0;
 }
 
-.menu-nav span {
+#header-wrap .menu-nav span {
     display: table-cell;
     background-size: contain;
     background-position: 100% 50%;
     background-repeat: no-repeat;
 }
 
-.menu-nav .menu-button {
+#header-wrap .menu-nav .menu-button {
     background-image: url(../images/header/menu-button.png);
 }
 
-.menu-nav .close-bg {
+#header-wrap .menu-nav .close-bg {
     background-image: url(../images/header/close.png);
 }
 
-.nav {
+#header-wrap .nav {
     width: 88vw;
     position: absolute;
     top: 24vh;
 }
 
-.nav li {
+#header-wrap .nav li {
     height: 7vh;
     float: left;
     padding: 0 25vw;
@@ -160,33 +227,33 @@ textarea {
     display: table;
 }
 
-.nav li a {
+#header-wrap .nav li a {
     display: table-cell;
     background-size: contain;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
-.nav li .introduction {
+#header-wrap .nav li .introduction {
     background-image: url(../images/header/introduction.png);
 }
 
-.nav li .detail {
+#header-wrap .nav li .detail {
     background-image: url(../images/header/detail.png);
 }
 
-.nav li .source {
+#header-wrap .nav li .source {
     background-image: url(../images/header/source.png);
 }
 
-.social {
+#header-wrap .social {
     width: 88vw;
     position: absolute;
     top: 63vh;
     padding: 0 11vw;
 }
 
-.social li {
+#header-wrap .social li {
     width: 16vw;
     height: 10vh;
     display: table;
@@ -194,27 +261,27 @@ textarea {
     margin: 0 3vw;
 }
 
-.social li a {
+#header-wrap .social li a {
     display: table-cell;
     background-size: contain;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
-.social li .weixin {
+#header-wrap .social li .weixin {
     background-image: url(../images/header/weixin.png);
     ;
 }
 
-.social li .kaola {
+#header-wrap .social li .kaola {
     background-image: url(../images/header/kaola.png);
 }
 
-.social li .weibo {
+#header-wrap .social li .weibo {
     background-image: url(../images/header/weibo.png);
 }
 
-.footer {
+#header-wrap .footer {
     width: 100vw;
     padding: 0 2vw;
     position: absolute;
@@ -222,7 +289,7 @@ textarea {
     left: 0;
 }
 
-.footer li {
+#header-wrap .footer li {
     width: 52vw;
     float: left;
     height: 4vh;
@@ -231,18 +298,18 @@ textarea {
     font-size: 2vw;
 }
 
-.footer li:nth-child(odd) {
+#header-wrap .footer li:nth-child(odd) {
     width: 44vw;
     text-align: right;
     padding-right: 1vw;
 }
 
-.footer li:nth-child(even) {
+#header-wrap .footer li:nth-child(even) {
     text-align: left;
     padding-left: 1vw;
 }
 
-.footer li a {
+#header-wrap .footer li a {
     color: #ee5322;
     height: 4vh;
     line-height: 1;

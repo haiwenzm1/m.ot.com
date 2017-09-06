@@ -1,23 +1,15 @@
 /******************************************************************************************
 *******************************************************************************************
-**用于首页定制化头部和底部
+**用于fullpafe项目导航
 *******************************************************************************************
 ******************************************************************************************/
 
-#header {
-    position: fixed;
-    z-index: 1000;
+.banner {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
     top: 0;
-}
-
-#footer {
-    position: fixed;
-    z-index: 1000;
-    bottom: 0;
-}
-
-#go-top {
-    display: none;
+    left: 0;
 }
 
 
@@ -27,560 +19,233 @@
 *******************************************************************************************
 ******************************************************************************************/
 
-#fp-nav.right {
-    right: 1vw;
+.banner1 {
+    display: none
 }
 
-#fp-nav ul li a span, .fp-slidesNav ul li a span {
-    width: 14px;
-    height: 14px;
-    border: 1px solid #fff;
-    background: #fff;
-}
-
-#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span {
-    background: #ee5322;
-    border-color: #ee5322;
-}
-
-#fp-nav ul li, .fp-slidesNav ul li {
-    margin: 16px 7px;
-}
-
-.fp-controlArrow.fp-prev {
-    left: 4vw;
-    width: 4vw;
-    height: 10vh;
-    background: url(../../images/index/arrow-left.png) 50% no-repeat;
+.banner1 .left-arrow {
+    background-image: url(../../images/index/banner1/left-arrow.png);
+    background-position: 0 50%;
+    background-repeat: no-repeat;
     background-size: contain;
-    border-width: 0;
-    border-color: none;
-}
-
-.fp-controlArrow.fp-next {
-    right: 4vw;
-    width: 4vw;
-    height: 10vh;
-    background: url(../../images/index/arrow-right.png) 50% no-repeat;
-    background-size: contain;
-    border-width: 0;
-}
-
-.section {
-    text-align: center;
-}
-
-
-/******************************************************************************************
-*******************************************************************************************
-**用于banner2
-*******************************************************************************************
-******************************************************************************************/
-
-.banner2-content {
-    width: 88vw;
-    margin-left: 6vw;
-    height: 70vh;
-    overflow: hidden;
-    border-radius: 40px;
-    position: relative;
-}
-
-.banner2-content div {
-    width: 88vw;
-    height: 70vh;
-}
-
-.banner2-content-0 {
-    background-color: #99b676;
-}
-
-.banner2-content-1 {
-    background-color: #e7bb68;
-}
-
-.banner2-content-2 {
-    background-color: #ac657c;
-}
-
-.banner2-content-3 {
-    background-color: #4b89b1;
-}
-
-.banner2-content img {
+    width: 24vw;
+    height: 6vh;
+    z-index: 9999;
     position: absolute;
+    top: 50vh;
+    left: 3vw;
+}
+
+.banner1 .right-arrow {
+    background-image: url(../../images/index/banner1/right-arrow.png);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24vw;
+    height: 6vh;
+    z-index: 9999;
+    position: absolute;
+    top: 50vh;
+    right: 3vw;
+}
+
+.banner1 .slide {
+    height: 100vh;
+    width: 100vw;
+    padding: 9vh 0 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
     display: none;
 }
 
+.banner1 .slide ul {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner1 .slide img {
+    position: absolute;
+    max-width: 500% !important;
+    /* display: none; */
+}
+
+.banner1-slide1-content {
+    background-color: #4b89b1;
+}
+
+.banner1-slide2-content {
+    background-color: #e7bb68;
+}
+
+.banner1-slide4-content {
+    background-color: #99b676;
+}
+
+.banner1-slide3-content {
+    background-color: #ac657c;
+}
+
 
 /******************************************************************************************
 *******************************************************************************************
-**用于banner3
+**用于fullpafe项目导航
+*******************************************************************************************
+******************************************************************************************/
+
+.banner2 {
+    background-color: #ee5322;
+}
+
+.banner2 .left-arrow {
+    background-image: url(../../images/index/banner2/left-arrow.png);
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24vw;
+    height: 4vh;
+    z-index: 9999;
+    position: absolute;
+    top: 78vh;
+    left: 7vw;
+}
+
+.banner2 .right-arrow {
+    background-image: url(../../images/index/banner2/right-arrow.png);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24vw;
+    height: 4vh;
+    z-index: 9999;
+    position: absolute;
+    top: 78vh;
+    right: 7vw;
+}
+
+.banner2 .slide {
+    height: 100vh;
+    width: 100vw;
+    padding: 9vh 0 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* display: none; */
+}
+
+.banner2 .slide img,
+.banner2 .slide p {
+    position: absolute;
+    /* display: none; */
+}
+
+.banner2 .slide .bg {
+    width: 100vw;
+    top: 9vh;
+    left: 0;
+}
+
+.banner2 .slide .text {
+    width: 70vw;
+    top: 30vh;
+    left: 21vw;
+}
+
+.banner2 .slide .logo {
+    width: 20vw;
+    top: 52vh;
+    left: 40vw;
+}
+
+.banner2 .slide p {
+    top: 69vh;
+    left: 11vw;
+    color: #fff;
+    text-align: center;
+    width: 80vw;
+    font-size: 4vw;
+    line-height: 2;
+}
+
+
+/******************************************************************************************
+*******************************************************************************************
+**用于fullpafe项目导航
 *******************************************************************************************
 ******************************************************************************************/
 
 .banner3 {
-    background: url(../../images/index/banner3/3.jpg) 0 0 no-repeat;
-    background-size: cover;
+    background-color: #ee5322;
 }
 
-.banner3-wrap img {
-    position: absolute;
-    display: block;
-    opacity: 0;
-}
-
-.banner3 .pop-layout {
-    display: none;
-    width: 100vw;
-    height: 100vh;
-    background: url(../../images/index/banner3/bg.jpg) no-repeat 50%;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    z-index: 1009;
-    padding: 7vh 0 41px;
-}
-
-.banner3 #pop-click {
-    width: 4%;
-    cursor: pointer;
-}
-
-.banner3 .pop-layout-content {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-.banner3 .pop-layout-content .close {
-    width: 3vw;
-    position: absolute;
-    right: 30px;
-    top: 30px;
-    cursor: pointer;
-    z-index: 4000;
-}
-
-.banner3 .pop-layout-content .left-nav {
-    width: 25vw;
-    margin-left: 1vw;
-    z-index: 3000;
-    position: absolute;
-    height: 80%;
-    overflow: hidden;
-    margin-top: 4vh;
-}
-
-.banner3 .pop-layout-content .left-nav li {
-    background: url(../../images/index/banner3/left-nav/1.png) no-repeat 10px 0;
-    height: 12.5%;
-    background-size: 10px 100%;
-    overflow: hidden;
-    padding: 5% 0;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-}
-
-.banner3 .pop-layout-content .left-nav li.first {
-    background-size: 10px 50%;
-    background-position-y: 100%;
-}
-
-.banner3 .pop-layout-content .left-nav li.last {
-    background-size: 10px 50%;
-}
-
-.banner3 .pop-layout-content .left-nav li a {
-    background: url(../../images/index/banner3/left-nav/2.png) no-repeat 50%;
+.banner3 .left-arrow {
+    background-image: url(../../images/index/banner2/left-arrow.png);
+    background-position: 0 50%;
+    background-repeat: no-repeat;
     background-size: contain;
-    width: 30px;
-    height: 100%;
-    display: block;
-    float: left;
-}
-
-.banner3 .pop-layout-content .left-nav li .number {
-    height: 100%;
-    display: inline-block;
-    font-size: 5vh;
-    margin-left: 16px;
-    margin-right: 6px;
-    line-height: 1;
-    font-family: fzltch !important;
-    font-weight: bold;
-    float: left;
-    color: rgb(115, 115, 115);
-}
-
-.banner3 .pop-layout-content .left-nav li .description {
-    height: 100%;
-    display: inline-block;
-    line-height: 2.6vh;
-    font-size: 1vh;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    font-family: fzltch;
-    float: left;
-    text-align: left;
-    color: rgb(115, 115, 115);
-    vertical-align: middle;
-}
-
-.banner3 .pop-layout-content .left-nav li.active a {
-    background-image: url(../../images/index/banner3/left-nav/3.png);
-}
-
-.banner3 .pop-layout-content .left-nav li.active * {
-    color: #fff;
-}
-
-.banner3 .pop-layout-content .banner3-nav-content {
-    width: 100%;
-    height: 100%;
+    width: 24vw;
+    height: 4vh;
+    z-index: 9999;
     position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 1100;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    top: 78vh;
+    left: 7vw;
 }
 
-.banner3 .pop-layout-content .banner3-nav-content p {
-    display: none;
-    color: #fff;
-    font-size: 1.5vw;
-    line-height: 2;
-    margin-top: -15vh;
-}
-
-.banner3-nav-content p.first-p {
-    margin-top: 0 !important;
-}
-
-.banner3-nav-content p .logo-img {
-    width: 12vw;
-}
-
-.banner3-nav-content p .top-img {
-    width: 6vw;
-}
-
-
-/******************************************************************************************
-*******************************************************************************************
-**用于banner5
-*******************************************************************************************
-******************************************************************************************/
-
-.banner5 {
-    background: url(../../images/index/banner5/bg.jpg) 0 0 no-repeat;
-    background-size: cover;
-}
-
-.banner5-wrap img {
+.banner3 .right-arrow {
+    background-image: url(../../images/index/banner2/right-arrow.png);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24vw;
+    height: 4vh;
+    z-index: 9999;
     position: absolute;
-    display: block;
-    opacity: 0;
+    top: 78vh;
+    right: 7vw;
 }
 
-.banner5 .banner5-pop-layout {
-    display: none;
-    width: 0;
-    height: 0;
-    position: absolute;
-    top: 70vh;
-    left: 77vw;
-    z-index: 1009;
-    opacity: 0;
-    overflow: hidden;
-    border-radius: 50%;
-}
-
-.banner5 #banner5-pop-click {
-    width: 4%;
-    cursor: pointer;
-}
-
-.banner5 .banner5-pop-layout-content {
-    width: 100vw;
+.banner3 .slide {
     height: 100vh;
-    padding: 7vh 0 41px;
-    background: url(../../images/index/banner5/pop-bg.png) no-repeat 50%;
-    background-size: cover;
-    position: relative;
-    top: -70vh;
-    left: -77vw;
-}
-
-.banner5 .banner5-pop-layout-content-close {
-    width: 3vw;
-    position: absolute;
-    right: 3vh;
-    top: 10vh;
-    cursor: pointer;
-    z-index: 4000;
-    display: none;
-}
-
-.banner5-pop-layout-content-scroll-down {
-    width: 4vw;
-    z-index: 4000;
-    position: absolute;
-    top: 74vh;
-    left: 48vw;
-    display: none;
-}
-
-.time-nav {
-    top: 67%;
-    position: absolute;
-    width: 66%;
-    left: 17%;
-    z-index: 5000;
-    display: none;
-}
-
-.time-nav li {
-    background: url(../../images/index/banner5/time-nav/1.png) 0 17px no-repeat;
-    float: left;
-    background-size: 100% 10px;
-}
-
-.time-nav li a {
-    background: url(../../images/index/banner5/time-nav/2.png) 4px 10px no-repeat;
-    height: 44px;
-    width: 30px;
-    float: left;
-    text-align: center;
-    position: relative;
-    overflow: hidden;
-    clear: both;
-    margin-left: 14px;
-}
-
-.time-nav li a span {
-    width: 14%;
-    height: 100%;
-    position: absolute;
-    top: 31px;
-    left: 44%;
-    background: url(../../images/index/banner5/time-nav/3.png) 0 0 repeat;
-}
-
-.time-nav li i {
-    width: 60px;
-    height: 50px;
-    float: left;
-    color: #fff;
-    font-size: 0.5vw;
-    clear: both;
-    line-height: 3;
-}
-
-.time-nav li.first {
-    background-position-x: 21px;
-}
-
-.time-nav li.first a span {
-    top: 0;
-}
-
-.time-nav li.active a {
-    background: url(../../images/index/banner5/time-nav/4.png) 0 7px no-repeat;
-}
-
-.time-nav li.active a span {
-    top: 31px;
-}
-
-.time-nav li.active i {
-    font-size: 1vw;
-    font-weight: bold;
-}
-
-.banner5-pop-content {
-    height: 67%;
+    width: 100vw;
+    padding: 9vh 0 0 0;
     position: absolute;
     top: 0;
     left: 0;
-    width: 66%;
-    left: 17%;
+    /* display: none; */
 }
 
-.banner5-pop-content div {
-    display: none;
-}
-
-.banner5-pop-content div * {
+.banner3 .slide img,
+.banner3 .slide p {
     position: absolute;
+    /* display: none; */
 }
 
-.banner5-pop-content h2 {
-    text-align: left;
-    color: #fff;
-    font-size: 2vw;
+.banner3 .slide .bg {
+    width: 100vw;
+    top: 9vh;
+    left: 0;
 }
 
-.banner5-pop-content p {
-    text-align: left;
+.banner3 .slide .text {
+    width: 70vw;
+    top: 30vh;
+    left: 21vw;
+}
+
+.banner3 .slide .logo {
+    width: 20vw;
+    top: 52vh;
+    left: 40vw;
+}
+
+.banner3 .slide p {
+    top: 69vh;
+    left: 11vw;
     color: #fff;
-    font-size: 1vw;
+    text-align: center;
+    width: 80vw;
+    font-size: 4vw;
     line-height: 2;
-}
-
-
-/******************************************************************************************
-*******************************************************************************************
-**用于banner6
-*******************************************************************************************
-******************************************************************************************/
-
-.banner6 .banner6-div-1 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: -120%;
-    overflow: hidden;
-    -webkit-transform: skew(-13deg);
-    -moz-transform: skew(-13deg);
-    transform: skew(-13deg);
-    background: url(../../images/index/banner6/9.png) repeat;
-    z-index: 1001;
-}
-
-.banner6 .banner6-div-1 * {
-    -webkit-transform: skew(13deg);
-    -moz-transform: skew(13deg);
-    transform: skew(13deg);
-}
-
-.banner6 .banner6-div-1 img {
-    height: 100%;
-    max-width: none;
-    right: -15%;
-    top: 0;
-    position: absolute;
-}
-
-.banner6 .banner6-div-1 p {
-    background: url(../../images/index/banner6/6.png) 0 0 no-repeat;
-    background-size: contain;
-    width: 15vw;
-    height: 5vw;
-    right: 7vw;
-    bottom: 10%;
-    position: absolute;
-}
-
-.banner6 .banner6-div-1 a {
-    background: url(../../images/index/banner6/5.png) 0 0 no-repeat;
-    background-size: contain;
-    width: 5vw;
-    height: 4vw;
-    right: 1%;
-    bottom: 10%;
-    position: absolute;
-}
-
-.banner6 .banner6-div-2 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: -120%;
-    -webkit-transform: skew(-13deg);
-    -moz-transform: skew(-13deg);
-    transform: skew(-13deg);
-    z-index: 1000;
-    overflow: hidden;
-    background: url(../../images/index/banner6/9.png) repeat;
-}
-
-.banner6 .banner6-div-2 * {
-    -webkit-transform: skew(13deg);
-    -moz-transform: skew(13deg);
-    transform: skew(13deg);
-}
-
-.banner6 .banner6-div-2 img {
-    height: 100%;
-    max-width: none;
-    right: -17%;
-    top: 0;
-    position: absolute;
-}
-
-.banner6 .banner6-div-2 p {
-    background: url(../../images/index/banner6/7.png) 0 0 no-repeat;
-    background-size: contain;
-    width: 15vw;
-    height: 5vw;
-    right: 7vw;
-    bottom: 10%;
-    position: absolute;
-}
-
-.banner6 .banner6-div-2 a {
-    background: url(../../images/index/banner6/5.png) 0 0 no-repeat;
-    background-size: contain;
-    width: 5vw;
-    height: 4vw;
-    right: 1%;
-    bottom: 10%;
-    position: absolute;
-}
-
-.banner6 .banner6-div-3 {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: -120%;
-    overflow: hidden;
-    background: url(../../images/index/banner6/9.png) repeat;
-}
-
-.banner6 .banner6-div-3 img {
-    height: 100%;
-    max-width: none;
-    right: 0;
-    top: 0;
-    position: absolute;
-}
-
-.banner6 .banner6-div-3 p {
-    background: url(../../images/index/banner6/8.png) 0 0 no-repeat;
-    background-size: contain;
-    width: 15vw;
-    height: 5vw;
-    right: 7vw;
-    bottom: 10%;
-    position: absolute;
-}
-
-.banner6 .banner6-div-3 a {
-    background: url(../../images/index/banner6/5.png) 0 0 no-repeat;
-    background-size: contain;
-    width: 5vw;
-    height: 4vw;
-    right: 1%;
-    bottom: 10%;
-    position: absolute;
-}
-
-.banner6 span {
-    background: url(../../images/index/banner6/9.png) repeat;
-    transform: none !important;
-    cursor: pointer;
-    width: 5vw;
-    height: 100%;
-    position: absolute;
-    top: 0%;
-    z-index: 3001;
 }

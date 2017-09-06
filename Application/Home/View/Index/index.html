@@ -1,68 +1,138 @@
-<extend name="Public/layout" />
+<extend name='Public/layout' />
 
-<block name="style">
-    <!-- <link type="text/css" href="__CSS__/index/jquery.fullPage.css" rel="stylesheet" /> -->
-    <!-- <link type="text/css" href="__CSS__/index/animate.min.css" rel="stylesheet" /> -->
-    <!-- <link type="text/css" href="__CSS__/index/index.css" rel="stylesheet" /> -->
+<block name='style'>
+    <link type='text/css' href='__CSS__/index/index.css' rel='stylesheet' />
 </block>
 
-<block name="body">
-    <div class="banner" style="
-    width: 100vw;
-    background-color: red;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-"></div>
+<block name='body'>
+    <div class='banner banner1'>
+        <a href='javascript:;' class='left-arrow'></a>
+        <a href='javascript:;' class='right-arrow'></a>
+        <div class='slide'>
+            <ul class='banner1-slide1-content'>
+                <li class='layer' data-depth='0.80'>
+                    <div>
+                        <img style='width: 35%;top: 86%;left: 60%;' src='__IMG__/index/banner1/1/text-2.png'>
+                    </div>
+                </li>
+                <li class='layer' data-depth='0.60'>
+                    <div>
+                        <img style='width: 35%;top: 4%;left: 62%;' src='__IMG__/index/banner1/bg.png'>
+                    </div>
+                </li>
+                <li class='layer' data-depth='0.40'>
+                    <div>
+                        <img style='width: 180%;top: 15%;left: 20%;' src='__IMG__/index/banner1/1/product.png'>
+                    </div>
+                </li>
+                <li class='layer' data-depth='0.20'>
+                    <div>
+                        <img class='text' style='width: 90%;top: 66%;left: 5%;' src='__IMG__/index/banner1/1/text-1.png'>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class='slide'>
+            <ul class='banner1-slide2-content'>
+                <li class='layer' data-depth='0.80'>
+                    <div>
+                        <img style='width: 25%;top: 86%;left: 65%;' src='__IMG__/index/banner1/2/text-2.png'>
+                    </div>
+                </li>
+                <li class='layer' data-depth='0.60'>
+                    <div>
+                        <img style='width: 40%;top: 11%;left: 55%;' src='__IMG__/index/banner1/bg.png'>
+                    </div>
+                </li>
+                <li class='layer' data-depth='0.40'>
+                    <div>
+                        <img style='width: 160%;top: 35%;left: 20%;' src='__IMG__/index/banner1/2/product.png'>
+                    </div>
+                </li>
+                <li class='layer' data-depth='0.20'>
+                    <div>
+                        <img class='text' style='width: 80%;top: 68%;left: 10%;' src='__IMG__/index/banner1/2/text-1.png'>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class='slide'>
+            <ul class='banner1-slide3-content'>
+                <li class='layer' data-depth='0.80'>
+                    <div>
+                        <img style='width: 40%;top: 88%;left: 52%;' src='__IMG__/index/banner1/3/text-2.png'>
+                    </div>
+                </li>
+                <li class='layer' data-depth='0.60'>
+                    <div>
+                        <img style='width: 40%;top: 5%;left: 60%;' src='__IMG__/index/banner1/bg.png'>
+                    </div>
+                </li>
+                <li class='layer' data-depth='0.40'>
+                    <div>
+                        <img style='width: 180%;top: 25%;left: 10%;' src='__IMG__/index/banner1/3/product.png'>
+                    </div>
+                </li>
+                <li class='layer' data-depth='0.20'>
+                    <div>
+                        <img class='text' style='width: 80%;top: 67%;left: 10%;' src='__IMG__/index/banner1/3/text-1.png'>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class='slide'>
+            <ul class='banner1-slide4-content'>
+                <li class='layer' data-depth='0.80'>
+                    <div>
+                        <img style='width: 30%;top: 90%;left: 62%;' src='__IMG__/index/banner1/4/text-2.png'>
+                    </div>
+                </li>
+                <li class='layer' data-depth='0.60'>
+                    <div>
+                        <img style='width: 40%;top: 5%;left: 57%;' src='__IMG__/index/banner1/bg.png'>
+                    </div>
+                </li>
+                <li class='layer' data-depth='0.40'>
+                    <div>
+                        <img style='width: 170%;top: 25%;left: 15%;' src='__IMG__/index/banner1/4/product.png'>
+                    </div>
+                </li>
+                <li class='layer' data-depth='0.20'>
+                    <div>
+                        <img class='text' style='width: 90%;top: 68%;left: 5%;' src='__IMG__/index/banner1/4/text-1.png'>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 
-<div class="banner" style="
-display:none;
-    width: 100vw;
-    background-color: green;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-"></div>
+    <div class='banner banner2'>
+        <a href='javascript:;' class='left-arrow'></a>
+        <a href='javascript:;' class='right-arrow'></a>
+        <div class='slide'>
+            <img class='bg' src='__IMG__/index/banner2/1/bg.jpg'>
+            <img class='text' src='__IMG__/index/banner2/text.png'>
+            <img class='logo' src='__IMG__/index/banner2/logo.png'>
+            <p>
+                生活中，你会看到许许多多的标志。 <br /> 有一种标志，它像你的家人朋友般懂你。 <br /> 懂你向往随性，自在，无忧无虑， <br /> 不想去遵守太多的计划性， <br /> 尽情享受各种精彩的可能。
+            </p>
+        </div>
+    </div>
 
-<div class="banner" style="display:none;
-    width: 100vw;
-    background-color: black;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-"></div>
-
-<div class="banner" style="display:none;
-    width: 100vw;
-    background-color: blue;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-"></div>
+    <div class='banner banner3'>
+        <a href='javascript:;' class='left-arrow'></a>
+        <a href='javascript:;' class='right-arrow'></a>
+        <div class='slide'>
+            <img class='bg' src='__IMG__/index/banner2/1/bg.jpg'>
+            <img class='text' src='__IMG__/index/banner2/text.png'>
+            <img class='logo' src='__IMG__/index/banner2/logo.png'>
+            <p>
+                生活中，你会看到许许多多的标志。 <br /> 有一种标志，它像你的家人朋友般懂你。 <br /> 懂你向往随性，自在，无忧无虑， <br /> 不想去遵守太多的计划性， <br /> 尽情享受各种精彩的可能。
+            </p>
+        </div>
+    </div>
 </block>
 
-<block name="script">
-<script>
-$(".banner").on({
-	"swipeleft":function(){
-		if($(this).next(".banner").length != 0){
-			$(this).next(".banner").show();
-			$(this).next(".banner").siblings().hide();
-		}
-	},
-	"swiperight":function(){
-		if($(this).prev(".banner").length != 0){
-			$(this).prev(".banner").show();
-			$(this).prev(".banner").siblings().hide();
-		}
-	}
-});
-
-
-
-</script>
+<block name='script'>
+    <script type='text/javascript' src='__JS__/index.js'></script>
 </block>
