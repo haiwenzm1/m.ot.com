@@ -2,12 +2,12 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">	
+    <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-	<meta content="yes" name="apple-mobile-web-app-capable" />
-	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
-	<meta content="telephone=no" name="format-detection" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
 
     <title>{$pageTitle}</title>
 
@@ -25,13 +25,13 @@
         <a class="menu-nav" href="javascript:;"><span class="menu-button"></span> </a>
         <ul class="nav">
             <li>
-                <a class="introduction" href="" title="品牌介绍"></a>
+                <a class="introduction" href="{:U('whoWeAre')}" title="品牌介绍"></a>
             </li>
             <li>
-                <a class="detail" href="" title="品牌详情"></a>
+                <a class="detail" href="{:U('howWeWork')}" title="品牌详情"></a>
             </li>
             <li>
-                <a class="source" href="" title="品牌来源"></a>
+                <a class="source" href="{:U('whereWeAre')}" title="品牌来源"></a>
             </li>
         </ul>
 
@@ -62,7 +62,7 @@
     <script type="text/javascript">
         $(function() {
             $('.menu-nav').on('tap', function(e) {
-                e.stopPropagation(); // 阻止JavaScript事件冒泡传递
+                // e.stopPropagation(); // 阻止JavaScript事件冒泡传递
                 if ($(this).find('.menu-button').length) {
                     $(this).find('.menu-button').removeClass('menu-button').addClass('close-bg');
                     $('#header-wrap').animate({

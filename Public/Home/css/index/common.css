@@ -1,48 +1,40 @@
+/****************************************************************************************
+*****************************************************************************************
+*****************************************************************************************
+全局设置
+*****************************************************************************************
+*****************************************************************************************
+/***************************************************************************************/
+
 body {
     background: rgb(246, 246, 246);
+}
+
+#header-wrap {
+    position: relative;
 }
 
 p {
     font-size: 0.9vw;
     line-height: 2;
+    color: rgb(127, 127, 127);
 }
 
-#header {
-    position: fixed;
-    z-index: 1000;
-    top: 0;
+
+/****************************************************************************************
+*****************************************************************************************
+*****************************************************************************************
+字体设置
+*****************************************************************************************
+*****************************************************************************************
+/***************************************************************************************/
+
+.text-center {
+    text-align: center !important;
 }
 
-#footer {
-    background-color: #fff;
-}
-
-.wrap6 {
-    width: 60%;
-    margin: 40px auto;
-    position: relative;
-}
-
-.wrap8 {
-    width: 80%;
-    margin: 40px auto;
-    position: relative;
-}
-
-.width100 {
-    width: 100%;
-    height: auto;
-}
-
-.full100 {
-    height: 100%;
-    width: 100%;
-}
-
-.banner {
-    display: table;
-    position: relative;
-    width: 100%;
+.rgb-234-89-20 {
+    color: rgb(234, 89, 20);
 }
 
 .big-red {
@@ -64,8 +56,17 @@ p {
     text-align: center!important;
 }
 
-.text-center {
-    text-align: center !important;
+
+/****************************************************************************************
+*****************************************************************************************
+*****************************************************************************************
+框架设置
+*****************************************************************************************
+*****************************************************************************************
+/***************************************************************************************/
+
+.banner {
+    width: 100vw;
 }
 
 .title {
@@ -73,22 +74,39 @@ p {
     background-position-x: 0%;
     background-position-y: 0%;
     text-align: center;
-    padding: 50px 0;
+    padding: 25px 0 25px;
     background-position: 50% 100%;
+    margin-bottom: 20px;
 }
 
-.content p {
-    padding: 2vh 0px;
-    font-size: 2vmin;
+.title img {
+    height: 5vh;
+}
+
+.paragraph {
+    padding: 1vh 3vw;
+    text-align: justify;
+}
+
+.half-left {
+    width: 49%;
+    float: left;
+}
+
+.half-right {
+    width: 49%;
+    float: right;
 }
 
 .left-img-right-content {
-    height: 300px;
+    height: 200px;
     -webkit-box-shadow: 0 0 10px rgba(234, 234, 234, .5);
     -moz-box-shadow: 0 0 10px rgba(234, 234, 234, .5);
     box-shadow: 0 0 10px rgba(234, 234, 234, .5);
     background-color: #fff;
     display: table;
+    padding: 10px;
+    margin-bottom: 40px;
 }
 
 .left-img-right-content img {
@@ -98,11 +116,11 @@ p {
 }
 
 .left-img-right-content .right-content {
-    width: 60%;
+    width: 50%;
     display: table-cell;
     vertical-align: middle;
     height: 100%;
-    padding: 0 5% 0 10%;
+    padding-left: 5%;
 }
 
 .left-img-right-content h2 {
@@ -119,54 +137,15 @@ p {
     color: rgb(127, 127, 127);
 }
 
-.left-img-right-content-5 {
-    height: auto;
-    -webkit-box-shadow: 0 0 10px rgba(234, 234, 234, .5);
-    -moz-box-shadow: 0 0 10px rgba(234, 234, 234, .5);
-    box-shadow: 0 0 10px rgba(234, 234, 234, .5);
-    background-color: #fff;
-    display: table;
-}
-
-.left-img-right-content-5 img {
-    width: 100%;
-    width: 100%;
-    float: left;
-}
-
-.left-img-right-content-5 .right-content {
-    width: 50%;
-    display: table-cell;
-    vertical-align: middle;
-    height: 100%;
-    padding: 0 5%;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    padding: 0 5% 0 10%;
-}
-
-.left-img-right-content-5 h2 {
-    width: 100%;
-    color: rgb(0, 0, 0);
-    font-size: 2vw;
-    text-align: left;
-}
-
-.left-img-right-content-5 p {
-    width: 100%;
-    text-align: left;
-}
-
 .right-img-left-content {
-    width: 80%;
-    margin: 40px auto;
-    height: 300px;
+    margin-bottom: 40px;
+    height: 200px;
     -webkit-box-shadow: 0 0 10px rgba(234, 234, 234, .5);
     -moz-box-shadow: 0 0 10px rgba(234, 234, 234, .5);
     box-shadow: 0 0 10px rgba(234, 234, 234, .5);
     background-color: #fff;
     display: table;
+    padding: 10px;
 }
 
 .right-img-left-content img {
@@ -176,11 +155,11 @@ p {
 }
 
 .right-img-left-content .left-content {
-    width: 60%;
+    width: 50%;
     display: table-cell;
     vertical-align: middle;
     height: 100%;
-    padding: 0 10% 0 5%;
+    padding-right: 5%;
 }
 
 .right-img-left-content h2 {
@@ -197,167 +176,68 @@ p {
     color: rgb(127, 127, 127);
 }
 
-.right-img-left-content-5 {
-    height: auto;
-    -webkit-box-shadow: 0 0 10px rgba(234, 234, 234, .5);
-    -moz-box-shadow: 0 0 10px rgba(234, 234, 234, .5);
-    box-shadow: 0 0 10px rgba(234, 234, 234, .5);
+.description {
+    margin-bottom: 60px;
+}
+
+.description p {
+    text-align: center;
+    color: rgb(127, 127, 127);
+    padding: 1vh 0;
+}
+
+.h2-center {
+    text-align: center;
+    font-size: 4vw;
+    padding: 2vh 0;
+}
+
+.content {
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    padding: 1vh 0;
+    text-align: justify;
+    width: 100%;
+}
+
+.gallery {
+    margin-bottom: 4vh;
     background-color: #fff;
-    display: table;
 }
 
-.right-img-left-content-5 img {
-    width: 100%;
-    float: right;
-}
-
-.right-img-left-content-5 .left-content {
-    width: 50%;
-    display: table-cell;
-    vertical-align: middle;
-    height: 100%;
-    padding: 0 10% 0 5%;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-}
-
-.right-img-left-content-5 h2 {
-    width: 100%;
-    color: rgb(0, 0, 0);
-    font-size: 2vw;
-    text-align: left;
-}
-
-.right-img-left-content-5 p {
-    width: 100%;
-    text-align: left;
-}
-
-.bg-description {
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.bg-description p {
-    text-align: center;
-    color: #fff;
-    padding: 1vh 0 0 0;
-}
-
-.gallery5 {
-    width: 48%;
-    padding: 10px;
-    background: #fff;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    margin-bottom: 40px;
-}
-
-.gallery5-wrap .gallery5:nth-child(even) {
-    float: right;
-}
-
-.gallery5-wrap .gallery5:nth-child(odd) {
-    float: left;
-}
-
-.gallery5 a {
+.gallery a {
     width: 100%;
     float: left;
 }
 
-.gallery5 a img {
+.gallery a img {
     width: 100%;
 }
 
-.gallery5 h3 {
+.gallery h3 {
     width: 100%;
-    color: rgb(234, 89, 20);
     font-size: 2vw;
     text-align: left;
     float: left;
     text-transform: Uppercase;
+    padding: 1vh 2vw;
 }
 
-.gallery5 p {
+.gallery p {
     width: 100%;
     text-align: left;
-    padding: 3px 0;
+    padding: 1vh 2vw;
     color: rgb(127, 127, 127);
     float: left;
-}
-
-.bg-description-left {
-    position: absolute;
-    top: 0;
-    left: 0;
-    text-align: center;
-    width: 50%;
-    overflow: hidden;
-}
-
-.bg-description-left h3 {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.bg-description-left p {
-    text-align: center;
-    color: #fff;
-    padding: 5px 0;
-}
-
-.gallery3 {
-    width: 31%;
-    padding: 10px;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    float: left;
-    margin: 0 1%;
-}
-
-.gallery3 a {
-    width: 100%;
-    float: left;
-}
-
-.gallery3 a img {
-    width: 100%;
-}
-
-.gallery3 h3 {
-    width: 100%;
-    color: rgb(0, 0, 0);
-    font-size: 2vw;
-    text-align: left;
-    float: left;
-    text-transform: Uppercase;
-    margin: 10px 0;
-}
-
-.gallery3 p {
-    width: 100%;
-    text-align: left;
-    padding: 5px 0;
-    color: rgb(127, 127, 127);
-    float: left;
-}
-
-.block4 .gallery5 p {
-    height: auto;
 }
 
 .statistics {
     background: url(../../images/where-we-are/12.png) no-repeat;
     background-position: 50% 0;
     height: 55px;
+    width: 100%;
     margin: 50px 0 10px;
 }
