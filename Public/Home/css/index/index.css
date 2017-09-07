@@ -135,37 +135,58 @@
     display: none;
 }
 
-.banner2 .slide img,
+.banner2 .slide div,
 .banner2 .slide p {
     position: absolute;
-    /* display: none; */
 }
 
 .banner2 .slide .bg {
     width: 100vw;
     top: 9vh;
     left: 0;
+	height:40%;
+	overflow:hidden;
+}
+.banner2 .slide .bg img{
+	width:100vw;
 }
 
 .banner2 .slide .text {
     width: 70vw;
-    top: 30vh;
+    top: 27vh;
     left: 21vw;
+    height: 10vh;
+    text-align: center;
+}
+
+.banner2 .slide .text img{
+	height: 100%;
+    position: relative;
 }
 
 .banner2 .slide .logo {
-    width: 20vw;
-    top: 52vh;
-    left: 40vw;
+	background-color: #ee5322;
+    height: 22%;
+    width: 100vw;
+    position: absolute;
+    top: 46%;
+    text-align: center;
+    overflow: hidden;
+    padding: 8% 0;
+}
+
+.banner2 .slide .logo img{
+	height: 100%;
+    position: relative;
 }
 
 .banner2 .slide p {
-    top: 69vh;
+	top: 69vh;
     left: 11vw;
     color: #fff;
     text-align: center;
     width: 80vw;
-    font-size: 4vw;
+    font-size: 3vw;
     line-height: 2;
 }
 
