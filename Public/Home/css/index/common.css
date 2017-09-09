@@ -10,14 +10,21 @@ body {
     background: rgb(246, 246, 246);
 }
 
-#header-wrap {
-    position: relative;
+h2 {
+    font-size: 5vw;
+    padding: 1vh 0;
+}
+
+h3 {
+    font-size: 4vw;
+    padding: 1vh 0;
 }
 
 p {
-    font-size: 0.9vw;
+    font-size: 3vw;
     line-height: 2;
     color: rgb(127, 127, 127);
+    padding: 1vh 0;
 }
 
 
@@ -39,19 +46,19 @@ p {
 
 .big-red {
     color: rgb(240, 83, 35);
-    font-size: 1.5vw;
+    font-size: 4vw;
     padding: 0 5px;
 }
 
 .big-green {
     color: rgb(175, 183, 1);
-    font-size: 1.5vw;
+    font-size: 4vw;
     padding: 0 5px;
 }
 
 .large-green {
     color: rgb(175, 183, 1) !important;
-    font-size: 3vw !important;
+    font-size: 8vw !important;
     padding: 0 5px;
     text-align: center!important;
 }
@@ -77,10 +84,6 @@ p {
     padding: 25px 0 25px;
     background-position: 50% 100%;
     margin-bottom: 20px;
-}
-
-.title img {
-    height: 5vh;
 }
 
 .paragraph {
@@ -126,7 +129,6 @@ p {
 .left-img-right-content h2 {
     width: 100%;
     color: rgb(234, 89, 20);
-    font-size: 2vw;
     text-align: left;
 }
 
@@ -166,7 +168,6 @@ p {
     width: 100%;
     font-family: fzltxh;
     color: rgb(234, 89, 20);
-    font-size: 2vw;
     text-align: left;
 }
 
@@ -177,7 +178,7 @@ p {
 }
 
 .description {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 .description p {
@@ -219,7 +220,6 @@ p {
 
 .gallery h3 {
     width: 100%;
-    font-size: 2vw;
     text-align: left;
     float: left;
     text-transform: Uppercase;

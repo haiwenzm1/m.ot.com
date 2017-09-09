@@ -12,11 +12,9 @@
     <title>{$pageTitle}</title>
 
     <link href="__ROOT__/favicon.ico" type="image/x-icon" rel="shortcut icon">
-    <link type="text/css" href="__STATIC__/jquery.mobile-1.4.5.min.css" rel="stylesheet">
     <link type="text/css" href="__CSS__/base.css" rel="stylesheet">
     <block name="style"></block>
     <script type="text/javascript" src="__STATIC__/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="__STATIC__/jquery.mobile-1.4.5.min.js"></script>
 </head>
 
 <body>
@@ -61,7 +59,7 @@
 
     <script type="text/javascript">
         $(function() {
-            $('.menu-nav').on('tap', function(e) {
+            $('.menu-nav').on('click', function(e) {
                 // e.stopPropagation(); // 阻止JavaScript事件冒泡传递
                 if ($(this).find('.menu-button').length) {
                     $(this).find('.menu-button').removeClass('menu-button').addClass('close-bg');
