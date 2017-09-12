@@ -10,7 +10,7 @@
     position: absolute;
     top: 0;
     left: 0;
-	display: none;
+    display: none;
 }
 
 
@@ -21,6 +21,15 @@
 ******************************************************************************************/
 
 .banner1 {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner1-content {
+    width: 400%;
+    height: 100%;
+    position: relative;
+    float: left;
 }
 
 .banner1 .left-arrow {
@@ -51,12 +60,10 @@
 
 .banner1 .slide {
     height: 100vh;
-    width: 100vw;
-    padding: 9vh 0 0 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
+    padding-top: 9vh;
+    width: 25%;
+    display: block;
+    float: left;
 }
 
 .banner1 .slide ul {
@@ -135,8 +142,7 @@
     display: none;
 }
 
-.banner2 .slide div,
-.banner2 .slide p {
+.banner2 .slide div, .banner2 .slide p {
     position: absolute;
 }
 
@@ -144,11 +150,12 @@
     width: 100vw;
     top: 9vh;
     left: 0;
-	height:40%;
-	overflow:hidden;
+    height: 40%;
+    overflow: hidden;
 }
-.banner2 .slide .bg img{
-	width:100vw;
+
+.banner2 .slide .bg img {
+    width: 100vw;
 }
 
 .banner2 .slide .text {
@@ -159,13 +166,13 @@
     text-align: center;
 }
 
-.banner2 .slide .text img{
-	height: 100%;
+.banner2 .slide .text img {
+    height: 100%;
     position: relative;
 }
 
 .banner2 .slide .logo {
-	background-color: #ee5322;
+    background-color: #ee5322;
     height: 22%;
     width: 100vw;
     position: absolute;
@@ -175,13 +182,13 @@
     padding: 8% 0;
 }
 
-.banner2 .slide .logo img{
-	height: 100%;
+.banner2 .slide .logo img {
+    height: 100%;
     position: relative;
 }
 
 .banner2 .slide p {
-	top: 69vh;
+    top: 69vh;
     left: 11vw;
     color: #fff;
     text-align: center;
@@ -198,7 +205,7 @@
 ******************************************************************************************/
 
 .banner3 {
-	background-color: #ee5322;
+    background-color: #ee5322;
 }
 
 .banner3 .left-arrow {
@@ -237,9 +244,7 @@
     display: none;
 }
 
-.banner3 .slide div,
-.banner3 .slide p,
-.banner3 .slide h3 {
+.banner3 .slide div, .banner3 .slide p, .banner3 .slide h3 {
     position: absolute;
     /* display: none; */
 }
@@ -248,11 +253,12 @@
     width: 100vw;
     top: 9vh;
     left: 0;
-	height:40%;
-	overflow:hidden;
+    height: 40%;
+    overflow: hidden;
 }
-.banner3 .slide .bg img{
-	width:100vw;
+
+.banner3 .slide .bg img {
+    width: 100vw;
 }
 
 .banner3 .slide .text {
@@ -263,13 +269,13 @@
     text-align: center;
 }
 
-.banner3 .slide .text img{
-	height: 100%;
+.banner3 .slide .text img {
+    height: 100%;
     position: relative;
 }
 
 .banner3 .slide .bottom {
-	background-color: #ee5322;
+    background-color: #ee5322;
     height: 30%;
     width: 100vw;
     position: absolute;
@@ -279,19 +285,19 @@
     padding: 5% 0;
 }
 
-.banner3 .slide .bottom img{
-	height: 100%;
+.banner3 .slide .bottom img {
+    height: 100%;
     position: relative;
 }
 
-.banner3 .slide h3{
-	color: #fff;
+.banner3 .slide h3 {
+    color: #fff;
     text-align: center;
     width: 80vw;
-	left: 10vw;
+    left: 10vw;
     font-size: 5.5vw;
     line-height: 2;
-	font-family: fzltxh !important;
+    font-family: fzltxh !important;
 }
 
 .banner3 .slide p {
@@ -301,5 +307,5 @@
     width: 80vw;
     font-size: 2.5vw;
     line-height: 2;
-	font-family: fzltxh !important;
+    font-family: fzltxh !important;
 }
