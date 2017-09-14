@@ -114,6 +114,8 @@ p {
 
 .left-img-right-content .img {
     display: table-cell;
+    width: 45%;
+    vertical-align: top;
 }
 
 .left-img-right-content img {
@@ -121,11 +123,10 @@ p {
 }
 
 .left-img-right-content .right-content {
-    width: 50%;
-    display: table-cell;
-    vertical-align: middle;
+    width: 100%;
     height: 100%;
     padding-left: 5%;
+    float: right;
 }
 
 .left-img-right-content h2 {
@@ -154,7 +155,8 @@ p {
 
 .right-img-left-content .img {
     display: table-cell;
-    float: right;
+    vertical-align: top;
+    width: 45%;
 }
 
 .right-img-left-content img {
@@ -162,11 +164,11 @@ p {
 }
 
 .right-img-left-content .left-content {
-    width: 50%;
-    display: table-cell;
+    width: 100%;
     vertical-align: middle;
     height: 100%;
     padding-right: 5%;
+    float: left;
 }
 
 .right-img-left-content h2 {
