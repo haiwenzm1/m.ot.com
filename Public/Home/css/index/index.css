@@ -30,6 +30,108 @@
 *******************************************************************************************
 ******************************************************************************************/
 
+.banner0 {
+    background-color: #ee5322;
+}
+
+.banner0 .left-arrow {
+    background-image: url(../../images/index/banner2/left-arrow.png);
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24vw;
+    height: 4vh;
+    z-index: 9999;
+    position: absolute;
+    top: 78vh;
+    left: 7vw;
+}
+
+.banner0 .right-arrow {
+    background-image: url(../../images/index/banner2/right-arrow.png);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24vw;
+    height: 4vh;
+    z-index: 9999;
+    position: absolute;
+    top: 78vh;
+    right: 7vw;
+}
+
+.banner0 .slide {
+    height: 100vh;
+    width: 100vw;
+    padding: 9vh 0 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.banner0 .slide div, .banner0 .slide p {
+    position: absolute;
+}
+
+.banner0 .slide .bg {
+    width: 100vw;
+    top: 9vh;
+    left: 0;
+    height: 40%;
+    overflow: hidden;
+}
+
+.banner0 .slide .bg img {
+    width: 100vw;
+}
+
+.banner0 .slide .text {
+    width: 70vw;
+    top: 27vh;
+    left: 21vw;
+    height: 10vh;
+    text-align: center;
+}
+
+.banner0 .slide .text img {
+    height: 100%;
+    position: relative;
+}
+
+.banner0 .slide .logo {
+    background-color: #ee5322;
+    height: 27%;
+    width: 100vw;
+    position: absolute;
+    top: 46%;
+    text-align: center;
+    overflow: hidden;
+    padding: 8% 0;
+}
+
+.banner0 .slide .logo img {
+    height: 100%;
+    position: relative;
+}
+
+.banner0 .slide p {
+    top: 73vh;
+    left: 11vw;
+    color: #fff;
+    text-align: center;
+    width: 80vw;
+    font-size: 3vw;
+    line-height: 2;
+}
+
+
+/******************************************************************************************
+*******************************************************************************************
+**用于fullpafe项目导航
+*******************************************************************************************
+******************************************************************************************/
+
 .banner1 {
     width: 100%;
     overflow: hidden;
@@ -152,8 +254,7 @@
     display: none;
 }
 
-.banner2 .slide div,
-.banner2 .slide p {
+.banner2 .slide div, .banner2 .slide p {
     position: absolute;
 }
 
@@ -255,9 +356,7 @@
     display: none;
 }
 
-.banner3 .slide div,
-.banner3 .slide p,
-.banner3 .slide h3 {
+.banner3 .slide div, .banner3 .slide p, .banner3 .slide h3 {
     position: absolute;
     /* display: none; */
 }

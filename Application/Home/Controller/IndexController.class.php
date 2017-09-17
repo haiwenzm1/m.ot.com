@@ -3,7 +3,7 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-        $this->pageTitle = "系统首页";
+        $this->pageTitle = "ORANGE GARTEN";
         $this->display();
     }
 
