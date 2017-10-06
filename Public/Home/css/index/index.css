@@ -31,7 +31,7 @@
 ******************************************************************************************/
 
 .banner0 {
-    background-color: #ee5322;
+    background-color: #fe5000;
 }
 
 .banner0 .left-arrow {
@@ -100,7 +100,7 @@
 }
 
 .banner0 .slide .logo {
-    background-color: #ee5322;
+    background-color: #fe5000;
     height: 27%;
     width: 100vw;
     position: absolute;
@@ -215,7 +215,7 @@
 ******************************************************************************************/
 
 .banner2 {
-    background-color: #ee5322;
+    background-color: #fe5000;
 }
 
 .banner2 .left-arrow {
@@ -284,7 +284,7 @@
 }
 
 .banner2 .slide .logo {
-    background-color: #ee5322;
+    background-color: #fe5000;
     height: 22%;
     width: 100vw;
     position: absolute;
@@ -317,7 +317,7 @@
 ******************************************************************************************/
 
 .banner3 {
-    background-color: #ee5322;
+    background-color: #fe5000;
 }
 
 .banner3 .left-arrow {
@@ -387,7 +387,7 @@
 }
 
 .banner3 .slide .bottom {
-    background-color: #ee5322;
+    background-color: #fe5000;
     height: 30%;
     width: 100vw;
     position: absolute;
@@ -436,7 +436,7 @@
 
 .banner4 .slide {
     position: absolute;
-    height: 40%;
+    height: 33%;
     width: 100vw;
 }
 
@@ -460,8 +460,15 @@
 }
 
 .banner4 .banner4-slide-content1 {
-    top: 9vh;
+    top: 6vh;
     left: 0;
+    transform: skew(0,3deg);
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.banner4 .banner4-slide-content1 *{
+    transform: skew(0,-3deg);
 }
 
 .banner4 .banner4-slide-content1 .bg {
@@ -470,19 +477,19 @@
 }
 
 .banner4 .banner4-slide-content1 .text {
-    top: 22vh;
+    top: 25vh;
     left: 60vw;
 }
 
 .banner4 .banner4-slide-content1 .plus {
-    top: 22vh;
+    top: 24vh;
     left: 87vw;
 }
 
 .banner4 .banner4-slide-content2 {
     top: 37vh;
     left: 0;
-    z-index: 1000;
+ 
 }
 
 .banner4 .banner4-slide-content2 .bg {
@@ -501,21 +508,29 @@
 }
 
 .banner4 .banner4-slide-content3 {
-    bottom: 0;
+    bottom: -3vh;
     left: 0;
+    transform: skew(0,-3deg);
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.banner4 .banner4-slide-content3 * {
+    transform: skew(0,3deg);
 }
 
 .banner4 .banner4-slide-content3 .bg {
-    bottom: 0;
+    top: -3vh;
     left: 0;
+    height: 100%;
 }
 
 .banner4 .banner4-slide-content3 .text {
-    bottom: 2vh;
+    bottom: 5vh;
     left: 60vw;
 }
 
 .banner4 .banner4-slide-content3 .plus {
-    bottom: 2vh;
+    bottom: 5vh;
     left: 87vw;
 }
