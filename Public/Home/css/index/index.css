@@ -422,6 +422,40 @@
     font-family: fzltxh !important;
 }
 
+#banner3-vedio{
+    height: auto;
+    width: 10vw;
+    bottom: 10px;
+}
+
+#banner3-vedio-wrap{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../../images/index/banner3/black-bg.png) repeat;
+    z-index: 100000;
+    display: none;
+}
+
+#banner3-vedio-close{
+    width: 9vw;
+    height: 9vw;
+    background: url(../../images/index/banner3/close.png) no-repeat;
+    position: absolute;
+    background-size: contain;
+    top: 10vh;
+    right: 4vh;
+}
+
+#banner3-vedio-content{
+    width: 90vw;
+    height: 50vh;
+    position: absolute;
+    top: 20vh;
+    right: 5vw;
+}
 
 /******************************************************************************************
 *******************************************************************************************

@@ -148,4 +148,22 @@ $(function () {
             e.next('.slide').siblings('.slide').removeClass('active').fadeOut(1000);
         }
     });
+
+    $(document).on('click', '#banner3-vedio', function () {
+        $('#banner3-vedio-wrap').show();
+        var myPlayer = videojs('my-video');
+        videojs("my-video").ready(function () {
+            var myPlayer = this;
+            myPlayer.play();
+        });
+    });
+
+    $(document).on('click', '#banner3-vedio-close', function () {
+        var myPlayer = videojs('my-video');
+        videojs("my-video").ready(function () {
+            var myPlayer = this;
+            myPlayer.pause();
+        });
+        $('#banner3-vedio-wrap').hide();
+    })
 });
